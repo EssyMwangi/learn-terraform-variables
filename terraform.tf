@@ -4,12 +4,12 @@
 terraform {
 
   
-  # cloud {
-  #     organization = "learn-terraform-variables-ess"
-  #     workspaces {
-  #       name = "learn-terraform-variables"
-  #     }
-  # }
+  cloud {
+      organization = "learn-terraform-variables-ess"
+      workspaces {
+        name = "learn-terraform-variables"
+      }
+  }
   
   required_providers {
     aws = {
